@@ -1,5 +1,7 @@
-# Goal
-====
+# World Citizenship - Creating Affordable Private Passport Services
+
+## Goal
+
 The goal of this project is to learn and layout a simple process for anyone in the world to create their own Private Passport Service that can be used to validate and prove the existence of other persons using nothing but available tools.
 
 We will prefer open source where available and we will draw on the cryptographic tools like Public Private Key Cryptography (PGP) and blockchain technology in the form of Bitcoin.
@@ -9,7 +11,6 @@ By doing this we aim to give people across the world the ability to grant one an
 First and foremost this is a learning exercise to discover whether the currently available open source cryptographic tools are up to the task of a global social network.
 
 ## Apparatus
-========
 
 1. Laptop x2 (one belongs to BitNation/WCN other belongs to our new citizen)
 2. Webcam
@@ -19,7 +20,6 @@ First and foremost this is a learning exercise to discover whether the currently
 6. Cool looking World Citizen Passport design
 
 ## Method
-======
 
 ### Step 1
 A determined group of forward thinking cypherpunks setup a meet up in their local town using a service like meetup.com 
@@ -63,7 +63,6 @@ They can also create an account with a website like Keybase:
 https://keybase.io/chrisellis which they can use to validate their other social media identities and plug in their new key in to more dynamic reputation systems
 
 ## Notes
-=====
 
 As a proof of concept, we need to look at both the appropriateness of the current tools and also the ethics of this. First thought are as follows:
 
