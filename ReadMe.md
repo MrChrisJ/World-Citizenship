@@ -1,7 +1,9 @@
-# World Citizenship - Creating Affordable Decentralised Passport Services using Available Cryptographic Tools
+# World Citizenship - Creating Affordable Decentralised Passport Services Using Available Cryptographic Tools
 
 **Also published here:** [https://docs.google.com/a/chrisellis.me/document/d/1hq52GT0sQ8mJBZ3_qr-LIpZTBFqIDA2WV8vb_1m8i4U/edit#bookmark=id.tukd0op21duu](https://docs.google.com/a/chrisellis.me/document/d/1hq52GT0sQ8mJBZ3_qr-LIpZTBFqIDA2WV8vb_1m8i4U/edit#bookmark=id.tukd0op21duu)  
 **Proof of Publication:** [http://www.cryptograffiti.info/?txnr=1247](https://github.com/MrChrisJ/World-Citizenship)  
+
+**See also [the Journal](https://github.com/MrChrisJ/World-Citizenship/blob/master/Journal.md)** 
 
 ## Goal
 
@@ -68,7 +70,7 @@ The document is printed out and presented in a cool Passport Design. It can be b
 
 The person is recognised as a World Citizen by the adherence to the protocol not by the branding of the passport which will be a stylistic choice like where you get your coffee.
 
-### Finished
+### Finishing Up
 You have now proved that this new global citizen existed at this point in time and space and was witnessed by others.
 
 They are now free to sign other people’s PGP Keys like at a regular [key signing party](http://en.wikipedia.org/wiki/Key_signing_party).
