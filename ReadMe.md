@@ -11,12 +11,12 @@ First and foremost this is a learning exercise to discover whether the currently
 ## Apparatus
 ========
 
-Laptop x2 (one belongs to BitNation/WCN other belongs to our new citizen)
-Webcam
-PGP Software
-Printer
-Laminator
-Read designed cool looking World Citizen Passport
+1. Laptop x2 (one belongs to BitNation/WCN other belongs to our new citizen)
+2. Webcam
+3. PGP Software
+4. Printer
+5. Laminator
+6. Cool looking World Citizen Passport design
 
 ## Method
 ======
@@ -34,21 +34,21 @@ Their laptop can be given a security audit also if they wish.
 
 Videos will have been made available to them before the meet up but it’s important for the organisers to get a sense of how well they understand the concepts so that they go in with their eyes open.
 
-### Step 3
+### Step 4
 The citizen has their picture taken passport style in the view of the rest of the room while the others entertain themselves and share notes.
 
-### Step 4
-They then go to a private room with their laptop and generate a new PGP Key that is preferably air gapped. They could also be sold a crypto-stick or similar product.
-
 ### Step 5
-The image and the PGP Key’s ID and Biometric Fingerprint are layed out in to an HTML document thus:
+They then go to a private room with their laptop and generate a new PGP Key that is preferably air gapped. They could also be sold a [crypto-stick](https://www.crypto-stick.com/) or similar product.
 
-<img src=“Passport-Layout-01.png”>
+### Step 6
+The image and the PGP Key’s ID and Biometric Fingerprint are laid out in to an HTML document thus:
+
+<img src=“/media/Passport-Layout-01.png”>
 
 The PGP key is then used to publicly sign the completed document and image.
 
-### Step 6
-The new global citizen then has their PGP Key signed by others in attendance. A SHA256 digest of the key is then placed along with the key’s ID in to the Bitcoin Blockchain using an address that is preferably owned by the commercial venue hosting the event.
+### Step 7
+The new global citizen then has their PGP Key signed by others in attendance. A SHA256 digest of the key is then placed along with the key’s ID in to the Bitcoin blockchain using an address that is preferably owned by the commercial venue hosting the event.
 
 By signing the ID of the PGP key in to the blockchain you are proving that it exists at this time. 
 
