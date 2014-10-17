@@ -43,7 +43,7 @@ They then go to a private room with their laptop and generate a new PGP Key that
 ### Step 6
 The image and the PGP Key’s ID and Biometric Fingerprint are laid out in to an HTML document thus:
 
-![Blockchain Passport](/media/Passport-Layout-01.png?raw=true “Blockchain Passport”)
+![Blockchain Passport](/media/Passport-Layout-01.png?raw=true)
 
 
 The PGP key is then used to publicly sign the completed document and image.
