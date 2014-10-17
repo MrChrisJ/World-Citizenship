@@ -1,4 +1,7 @@
-# World Citizenship - Creating Affordable Private Passport Services
+# World Citizenship - Creating Affordable Decentralised Passport Services using Available Cryptographic Tools
+
+**Also published here:** [https://github.com/MrChrisJ/World-Citizenship](https://github.com/MrChrisJ/World-Citizenship)
+**Proof of Publication:** [http://www.cryptograffiti.info/?txnr=1247](https://github.com/MrChrisJ/World-Citizenship)
 
 ## Goal
 
@@ -57,7 +60,7 @@ By using the venue’s Bitcoin address  (preferably one used by their customers)
 ### Finished
 You have now proved that this new global citizen existed at this point in time and space and was witnessed by others.
 
-They are now free to sign other’s PGP Keys.
+They are now free to sign other people’s PGP Keys like at a regular [key signing party](http://en.wikipedia.org/wiki/Key_signing_party).
 
 They can also create an account with a website like Keybase:
 https://keybase.io/chrisellis which they can use to validate their other social media identities and plug in their new key in to more dynamic reputation systems
