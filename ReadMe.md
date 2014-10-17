@@ -15,7 +15,7 @@ First and foremost this is a learning exercise to discover whether the currently
 
 ## Apparatus
 
-1. Laptop x2 (one belongs to BitNation/WCN other belongs to our new citizen)
+1. Laptop x2 (one belongs to organisers and the other to our new citizen)
 2. Webcam
 3. PGP Software
 4. Printer
@@ -53,9 +53,20 @@ The PGP key is then used to publicly sign the completed document and image.
 ### Step 7
 The new global citizen then has their PGP Key signed by others in attendance. A SHA256 digest of the key is then placed along with the key’s ID in to the Bitcoin blockchain using an address that is preferably owned by the commercial venue hosting the event.
 
-By signing the ID of the PGP key in to the blockchain you are proving that it exists at this time. 
+By including the Merkle Root of the latest block we prove we have knowledge of an event that cannot have taken place any time prior the latest block being published.
 
-By using the venue’s Bitcoin address  (preferably one used by their customers) with a public IP address you are proving that it exists in this space.
+By signing the Passport with a PGP key we bind  the state of the document to it’s cryptographic signature preventing us from changing its contents without detection.
+
+By stamping the digest of the resulting passport and its signature in to the blockchain following these steps we prove that it existed in this state at no time later than the block in which it was published.
+
+By using the venue’s Bitcoin address (preferably one used by their customers) with a public IP address we prove that it exists in this space.
+
+This is because Bitcoin nodes collect IP data in the debug.log file. Additionally since the venue is commercial they have an interest in maintaining their reputation and advertising their location. (Note: GPS data on phones can easily be spoofed).
+
+### Step 8
+The document is printed out and presented in a cool Passport Design. It can be branded as BitNation, World Crypto Network or something of the organiser’s choice. 
+
+The person is recognised as a World Citizen by the adherence to the protocol not by the branding of the passport which will be a stylistic choice like where you get your coffee.
 
 ### Finished
 You have now proved that this new global citizen existed at this point in time and space and was witnessed by others.
@@ -74,7 +85,7 @@ As a proof of concept, we need to look at both the appropriateness of the curren
 3. An Expiry Date is included as a feature and should be thought carefully about. It is possible that someone could have their PGP key stolen and it’s important that the right intervals of time are chosen so that they can “check-in” to such meet ups on a regular enough basis that they can publicly revoke old keys. The hope is that by bringing down the cost of providing such a service all over the world registering yourself will become effortless.
 4. We should think carefully before thinking about how biometrics can be used. It would not be wise to leave biometric data out in the open in plain text as it could be used by another. However if it could be salted or hashed with another string and if it can only be implemented at certain times and places according to protocol then it could be used as a kind of Seed which could generate other identities.
 5. The citizens could also use the meet up as an opportunity to prove other identities like BitMessage addresses in case they are a journalist for example and want to prove that this secure drop for whistle blowers is going to send content to where they say it will.
-
+6. One person multiple identities may also be an issue but not if we accept this as a feature of the system and do not misattribute what we are using these passports for. It is already possible to have multiple passports even from the same country if you know what to do.
 
 
 
