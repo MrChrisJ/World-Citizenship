@@ -1,7 +1,7 @@
 # World Citizenship - Creating Affordable Decentralised Passport Services using Available Cryptographic Tools
 
-**Also published here:** [https://github.com/MrChrisJ/World-Citizenship](https://github.com/MrChrisJ/World-Citizenship)
-**Proof of Publication:** [http://www.cryptograffiti.info/?txnr=1247](https://github.com/MrChrisJ/World-Citizenship)
+**Also published here:** [https://docs.google.com/a/chrisellis.me/document/d/1hq52GT0sQ8mJBZ3_qr-LIpZTBFqIDA2WV8vb_1m8i4U/edit#bookmark=id.tukd0op21duu](https://docs.google.com/a/chrisellis.me/document/d/1hq52GT0sQ8mJBZ3_qr-LIpZTBFqIDA2WV8vb_1m8i4U/edit#bookmark=id.tukd0op21duu)  
+**Proof of Publication:** [http://www.cryptograffiti.info/?txnr=1247](https://github.com/MrChrisJ/World-Citizenship)  
 
 ## Goal
 
