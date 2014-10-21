@@ -40,7 +40,7 @@ Their laptop can be given a security audit also if they wish.
 Videos will have been made available to them before the meet up but it’s important for the organisers to get a sense of how well they understand the concepts so that they go in with their eyes open.
 
 ### Step 4
-The citizen has their picture taken passport style in the view of the rest of the room while the others entertain themselves and share notes.
+The citizens participate in a group photo that can be cropped down to make each individual passport photo. 
 
 ### Step 5
 They then go to a private room with their laptop and generate a new PGP Key that is preferably air gapped. They could also be sold a [crypto-stick](https://www.crypto-stick.com/) or similar product.
