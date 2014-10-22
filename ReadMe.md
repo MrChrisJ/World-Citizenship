@@ -41,7 +41,7 @@ Videos will have been made available to them before the meet up but it’s impor
 
 ### Step 4
 The citizens participate in a group photo that can be cropped down to make each individual passport photo.
-The exact location and direction in which the group photo is taken could display the moste uniquely identifiable element(s) of the environment the in which the meetup takes place (landmarks, buildings, etc.) to provide a further reference to the georaphical location.
+The exact location and direction in which the group photo is taken may display the moste uniquely identifiable element(s) of the environment in which the meetup takes place (landmarks, buildings, etc.) to provide a additional reference to the georaphical location.
 
 ### Step 5
 They then go to a private room with their laptop and generate a new PGP Key that is preferably air gapped. They could also be sold a [crypto-stick](https://www.crypto-stick.com/) or similar product.
