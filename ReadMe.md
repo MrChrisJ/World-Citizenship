@@ -5,6 +5,9 @@
 
 **See also [the Journal](https://github.com/MrChrisJ/World-Citizenship/blob/master/Journal.md)** 
 
+Checkout the [Live Demo on Youtube](http://youtu.be/1iAg6BITPdc)  
+Torrent: magnet:?xt=urn:btih:885783fd23d63ab1b6a634d3bc34e43d7491c5da
+
 ## Goal
 
 The goal of this project is to learn and layout a simple process for anyone in the world to create their own Private Passport Service that can be used to validate and prove the existence of other persons using nothing but available tools.
