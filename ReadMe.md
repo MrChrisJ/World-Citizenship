@@ -14,7 +14,7 @@ The goal of this project is to learn and layout a simple process for anyone in t
 
 We will prefer open source where available and we will draw on the cryptographic tools like Public Private Key Cryptography (PGP) and blockchain technology in the form of Bitcoin.
 
-By doing this we aim to give people across the world the ability to grant one another Global Citizenship by virtue of their being witnessed in space and in time. This witnessing can be documented with photography and video, that content can be signed with PGP signatures, hashed and timestamped. It can then be joined with Social Network Validation services like Keybase.io before being plugged in to more dynamic reputation systems.
+By doing this we aim to give people across the world the ability to grant one another Global Citizenship by virtue of their being witnessed in space and in time. This witnessing can be documented with photography and video, that content can be signed with PGP signatures, hashed and timestamped. It can then be joined with Social Network Validation services like [Onename.io](https://onename.io) & [Keybase.io](https://keybase.io/) before being plugged in to more dynamic reputation systems.
 
 First and foremost this is a learning exercise to discover whether the currently available open source cryptographic tools are up to the task of a global social network.
 
@@ -74,12 +74,15 @@ The document is printed out and presented in a cool Passport Design. It can be b
 The person is recognised as a World Citizen by the adherence to the protocol not by the branding of the passport which will be a stylistic choice like where you get your coffee.
 
 ### Finishing Up
-You have now proved that this new global citizen existed at this point in time and space and was witnessed by others.
+You have now proved that this new global citizen existed at this point in time and space and that it was witnessed by others.
 
-They are now free to sign other people’s PGP Keys like at a regular [key signing party](http://en.wikipedia.org/wiki/Key_signing_party).
+Participants are now free to sign other people’s PGP Keys like at a regular [key signing party](http://en.wikipedia.org/wiki/Key_signing_party).  
 
-They can also create an account with a website like Keybase:
-https://keybase.io/chrisellis which they can use to validate their other social media identities and plug in their new key in to more dynamic reputation systems
+They can also create an account with a Social Network Validation service. We recommend:   
+- [Onename.io](https://onename.io/)
+- [Keybase](https://keybase.io/)  
+
+Services like these can be used to validate social media identities of the participants and plug their new key in to more dynamic reputation systems.
 
 ## Notes
 
