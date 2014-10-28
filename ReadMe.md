@@ -92,8 +92,9 @@ As a proof of concept, we need to look at both the appropriateness of the curren
 5. The citizens could also use the meet up as an opportunity to prove other identities like BitMessage addresses in case they are a journalist for example and want to prove that this secure drop for whistle blowers is going to send content to where they say it will.
 6. One person multiple identities may also be an issue but not if we accept this as a feature of the system and do not misattribute what we are using these passports for. It is already possible to have multiple passports even from the same country if you know what to do.
 
-
-
+## Licence
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 
 
