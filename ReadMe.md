@@ -1,12 +1,13 @@
 # World Citizenship - Creating Affordable Decentralised Passport Services Using Available Cryptographic Tools
 
-**Also published here:** [https://docs.google.com/a/chrisellis.me/document/d/1hq52GT0sQ8mJBZ3_qr-LIpZTBFqIDA2WV8vb_1m8i4U/edit#bookmark=id.tukd0op21duu](https://docs.google.com/a/chrisellis.me/document/d/1hq52GT0sQ8mJBZ3_qr-LIpZTBFqIDA2WV8vb_1m8i4U/edit#bookmark=id.tukd0op21duu)  
-**Proof of Publication:** [http://www.cryptograffiti.info/?txnr=1247](http://www.cryptograffiti.info/?txnr=1247)  
+**Proof of Initial Publication:** [http://www.cryptograffiti.info/?txnr=1247](http://www.cryptograffiti.info/?txnr=1247)  
 
 **See also [the Journal](https://github.com/MrChrisJ/World-Citizenship/blob/master/Journal.md)** 
 
 Checkout the [Live Demo on Youtube](http://youtu.be/1iAg6BITPdc)  
-Torrent: magnet:?xt=urn:btih:885783fd23d63ab1b6a634d3bc34e43d7491c5da
+Torrent: magnet:?xt=urn:btih:885783fd23d63ab1b6a634d3bc34e43d7491c5da  
+
+It has been brought to my attention that this project is similar to [IDCoin by David Duccini](https://github.com/IDCoin/IDCoin). Could be good to merge the two, tell me what you think in the Issues.  
 
 ## Goal
 
@@ -14,7 +15,7 @@ The goal of this project is to learn and layout a simple process for anyone in t
 
 We will prefer open source where available and we will draw on the cryptographic tools like Public Private Key Cryptography (PGP) and blockchain technology in the form of Bitcoin.
 
-By doing this we aim to give people across the world the ability to grant one another Global Citizenship by virtue of their being witnessed in space and in time. This witnessing can be documented with photography and video, that content can be signed with PGP signatures, hashed and timestamped. It can then be joined with Social Network Validation services like [Onename.io](https://onename.io) & [Keybase.io](https://keybase.io/) before being plugged in to more dynamic reputation systems.
+By doing this we aim to give people across the world the ability to grant one another World Citizenship by virtue of their being witnessed in space and in time. This witnessing can be documented with photography and video, that content can be signed with PGP signatures, hashed and timestamped. It can then be joined with Social Network Validation services like [Onename.io](https://onename.io) & [Keybase.io](https://keybase.io/) before being plugged in to more dynamic reputation systems.
 
 First and foremost this is a learning exercise to discover whether the currently available open source cryptographic tools are up to the task of a global social network.
 
@@ -57,7 +58,7 @@ The image and the PGP Key’s ID and Biometric Fingerprint are laid out in to an
 The PGP key is then used to publicly sign the completed document and image.
 
 ### Step 7
-The new global citizen then has their PGP Key signed by others in attendance. A SHA256 digest of the key is then placed along with the key’s ID in to the Bitcoin blockchain using an address that is preferably owned by the commercial venue hosting the event.
+The new world citizen then has their PGP Key signed by others in attendance. A SHA256 digest of the key is then placed along with the key’s ID in to the Bitcoin blockchain using an address that is preferably owned by the commercial venue hosting the event.
 
 By including the Merkle Root of the latest block we prove we have knowledge of an event that cannot have taken place any time prior the latest block being published.
 
@@ -75,29 +76,30 @@ The document is printed out and presented in a cool Passport Design. It can be b
 The person is recognised as a World Citizen by the adherence to the protocol not by the branding of the passport which will be a stylistic choice like where you get your coffee.
 
 ### Finishing Up
-You have now proved that this new global citizen existed at this point in time and space and that it was witnessed by others.
+You have now proved that this new world citizen existed at this point in time and space and that it was witnessed by others.
 
 Participants are now free to sign other people’s PGP Keys like at a regular [key signing party](http://en.wikipedia.org/wiki/Key_signing_party).  
 
 They can also create an account with a Social Network Validation service. We recommend:   
-- [Onename.io](https://onename.io/)
-- [Keybase](https://keybase.io/)  
+- [Onename.io](https://onename.io/) - which uses tight integration with the [Namecoin Blockchain](http://namecha.in/name/u/chrisellis) out of the box.
+- [Keybase](https://keybase.io/)  - which has better PGP integration
 
-Services like these can be used to validate social media identities of the participants and plug their new key in to more dynamic reputation systems.
+There’s no reason why you can’t use both and upload your public key to both. Services like these can be used to validate social media identities of the participants and plug their new key in to more dynamic reputation systems.
 
 ## Notes
 
 As a proof of concept, we need to look at both the appropriateness of the current tools and also the ethics of this. First thought are as follows:
 
 1. The brave new world citizens must fully understand what they are involving themselves in and must be educated such that they can make a voluntary decision about such an open and public gesture. This may not be right for many people who risk personal safety by being so exposed. The benefit of Public Private Key Cryptography of course is that we do have granularity when it comes to the revealing of the cryptographic digests and their corresponding contents but more needs to be done.
-2. The “Global Passport” only contains the name which can be a pseudonym and a photo of the individual for future offline verification and not their Date of Birth or Gender as I am trying to keep this as simple and elegant as possible. Any ‘rich data’ which is more social in its nature should be placed in to the social networking sphere and the reputation systems which should be tailored to voluntary agreements between community members. In fact the person’s legal identity may not even be necessary and they could be given a name based on the randomness of the Merkle Root for example or the Fingerprint.
+2. The “World Passport” only contains the name which can be a pseudonym and a photo of the individual for future offline verification and not their Date of Birth or Gender as I am trying to keep this as simple and elegant as possible. Any ‘rich data’ which is more social in its nature should be placed in to the social networking sphere and the reputation systems which should be tailored to voluntary agreements between community members. In fact the person’s legal identity may not even be necessary and they could be given a name based on the randomness of the Merkle Root for example or the Fingerprint.
 3. An Expiry Date is included as a feature and should be thought carefully about. It is possible that someone could have their PGP key stolen and it’s important that the right intervals of time are chosen so that they can “check-in” to such meet ups on a regular enough basis that they can publicly revoke old keys. The hope is that by bringing down the cost of providing such a service all over the world registering yourself will become effortless.
 4. We should think carefully before thinking about how biometrics can be used. It would not be wise to leave biometric data out in the open in plain text as it could be used by another. However if it could be salted or hashed with another string and if it can only be implemented at certain times and places according to protocol then it could be used as a kind of Seed which could generate other identities.
 5. The citizens could also use the meet up as an opportunity to prove other identities like BitMessage addresses in case they are a journalist for example and want to prove that this secure drop for whistle blowers is going to send content to where they say it will.
 6. One person multiple identities may also be an issue but not if we accept this as a feature of the system and do not misattribute what we are using these passports for. It is already possible to have multiple passports even from the same country if you know what to do.
+7. **Also published here:** [https://docs.google.com/a/chrisellis.me/document/d/1hq52GT0sQ8mJBZ3_qr-LIpZTBFqIDA2WV8vb_1m8i4U/edit#bookmark=id.tukd0op21duu](https://docs.google.com/a/chrisellis.me/document/d/1hq52GT0sQ8mJBZ3_qr-LIpZTBFqIDA2WV8vb_1m8i4U/edit#bookmark=id.tukd0op21duu) - This project was forked and first used by [BitNation](http://www.bitnation.co/).  
 
 ## Licence
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).  
 ![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 
