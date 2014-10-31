@@ -1,13 +1,22 @@
 # World Citizenship - Creating Affordable Decentralised Passport Services Using Available Cryptographic Tools
 
-**Proof of Initial Publication:** [http://www.cryptograffiti.info/?txnr=1247](http://www.cryptograffiti.info/?txnr=1247)  
+**[Proof of Initial Publication](http://www.cryptograffiti.info/?txnr=1247)**
 
-**See also [the Journal](https://github.com/MrChrisJ/World-Citizenship/blob/master/Journal.md)** 
-
-Checkout the [Live Demo on Youtube](http://youtu.be/1iAg6BITPdc)  
+**See also:**   
+[The Journal](https://github.com/MrChrisJ/World-Citizenship/blob/master/Journal.md)  
+The [Live Demo on Youtube](http://youtu.be/1iAg6BITPdc)  
 Torrent: magnet:?xt=urn:btih:885783fd23d63ab1b6a634d3bc34e43d7491c5da  
 
-It has been brought to my attention that this project is similar to [IDCoin by David Duccini](https://github.com/IDCoin/IDCoin). Could be good to merge the two, tell me what you think in the Issues.  
+**Donations**  
+If you want to donate to the expenses address:  
+[1B9c5V8Fc89qCKKznWUGh1vAxDh3RstqgC](https://blockchain.info/address/1B9c5V8Fc89qCKKznWUGh1vAxDh3RstqgC)  
+*It only needs topping up now and then, just 20mBTC or so would be lovely*  
+
+If you want to donate to me personally I’d be very grateful and it will go towards my coffee addiction:  
+[13U4gmroMmFwHAwd2Sukn4fE2WvHG6hP8e](https://blockchain.info/address/13U4gmroMmFwHAwd2Sukn4fE2WvHG6hP8e)   
+
+**Note on IDCoin**  
+It has been brought to my attention that this project is similar to [IDCoin by David Duccini](https://github.com/IDCoin/IDCoin) which fleshes out a Web of Trust model alluded to in the [Finishing Up section](https://github.com/MrChrisJ/World-Citizenship/blob/master/ReadMe.md#finishing-up). Could be good to merge the two, tell me what you think in the Issues.  
 
 ## Goal
 
