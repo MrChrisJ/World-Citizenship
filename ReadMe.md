@@ -1,5 +1,7 @@
 # World Citizenship - Creating Affordable Decentralised Passport Services Using Available Cryptographic Tools
 
+*Due to recent press coverage I’d like to remind everyone that this project* ***is an experiment*** *and learning exercise for experts in the field of cryptography.* ***Use at your own risk and read [Issues section](https://github.com/MrChrisJ/World-Citizenship/issues) before trying this yourself.***
+
 **[Proof of Initial Publication](http://www.cryptograffiti.info/?txnr=1247)**
 
 **See also:**   
