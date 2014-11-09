@@ -1,7 +1,6 @@
 # World Citizenship - Creating Affordable Decentralised Passport Services Using Available Cryptographic Tools
 
-**Disclaimer**:  
-*Due to recent press coverage I’d like to remind everyone that this project* ***is an experiment and learning exercise*** *for experts in the field of cryptography. Remember blockchains are distributed, immutable databases. Don’t put anything in to them that you wouldn’t want to last forever*. ***Please use these tools your own risk and read [Issues section](https://github.com/MrChrisJ/World-Citizenship/issues) before trying anything yourself.***  
+*Due to recent press coverage I’d like to remind everyone that this project* ***is an experiment*** *and learning exercise for experts in the field of cryptography.* ***Use at your own risk and read [Issues section](https://github.com/MrChrisJ/World-Citizenship/issues) before trying this yourself.***
 
 **[Proof of Initial Publication 17th October 2014](http://www.cryptograffiti.info/?txnr=1247)**
 
@@ -27,12 +26,11 @@ First and foremost this is a learning exercise to discover whether the currently
 
 1. Laptop x2 (one belongs to organisers and the other to our new citizen)
 2. Webcam
-3. PGP Software [Mac](https://gpgtools.org/) | [Gpg4win](http://www.gpg4win.org/)
-4. [Bitcoin wallet](https://bitcoin.org/en/choose-your-wallet)
-5. Printer
-6. Laminator
-7. Cool looking World Citizen Passport design
-8. Commercial Venue
+3. PGP Software
+4. Printer
+5. Laminator
+6. Cool looking World Citizen Passport design
+7. Commercial Venue
 
 ## Method
 
@@ -235,16 +233,15 @@ Because Bitcoin nodes collect IP data in the debug.log file it should be possibl
 ## Similar Projects
 It has been brought to my attention that this project is similar to other attempts in the past. What is important is that this idea be allowed to emerge without the need 
 
-#### [CheapID - State In A Box - Identity Services Architecture](http://guptaoption.com/4.SIAB-ISA.php)
-*Proposed by Vinay Gupta*
-
 #### [Bitcoin Web of Trust](http://bitcoin-otc.com/trust.php)
 
 #### [New Bitcoin Deed System Launches](http://qntra.net/2014/11/new-bitcoin-deed-system-launches/)
-This project proposes combining PGP with Blockchain technologies in a similar way.
 
-#### [IDCoin](https://github.com/IDCoin/IDCoin)
-IDCoin by David Duccini] fleshes out a Web of Trust model alluded to in the [Finishing Up section](https://github.com/MrChrisJ/World-Citizenship/blob/master/ReadMe.md#finishing-up).
+
+
+
+**Note on IDCoin**  
+It has been brought to my attention that this project is similar to [IDCoin by David Duccini](https://github.com/IDCoin/IDCoin) which fleshes out a Web of Trust model alluded to in the [Finishing Up section](https://github.com/MrChrisJ/World-Citizenship/blob/master/ReadMe.md#finishing-up). Could be good to merge the two, tell me what you think in the Issues.  
 
 ## Criticisms and Feedback
 
