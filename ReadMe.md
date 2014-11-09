@@ -23,11 +23,14 @@ By doing this we aim to give people across the world the ability to grant one an
 
 First and foremost this is a learning exercise to discover whether the currently available open source cryptographic tools are up to the task of a global social network.
 
+**What this is *not***
+This is not a Web of Trust or an attempt to build dynamic reputation systems. The aim with this project is to do one thing really well. We will take a modular approach when scaling out in to areas such as identity management and smart contracts. 
+
 ## Apparatus
 
 1. Laptop x2 (one belongs to organisers and the other to our new citizen)
 2. Webcam
-3. PGP Software [Mac](https://gpgtools.org/) | [Gpg4win](http://www.gpg4win.org/)
+3. PGP Software [Mac](https://gpgtools.org/) | [Windows](http://www.gpg4win.org/)
 4. [Bitcoin wallet](https://bitcoin.org/en/choose-your-wallet)
 5. Printer
 6. Laminator
@@ -41,7 +44,7 @@ A determined group of forward thinking cypherpunks arrange a meet-up in their lo
 
 The event page should layout the following:   
 
-1. The purpose of the meet-up and why you should care (give people a reason to be there)
+1. The purpose of the meet-up and why you should care (give people a reason to turn up)
 2. Lots of learning material clearly laid out like this video series from [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/intro-information-theory)
   1. An industrious group may wish to join a wiki in which they can share resources and feedback with a global network of events.  
 3. Clearly communicate what is expected of any potential participants and put them at ease; if it’s their first time they can choose to just watch and be a witness.  
@@ -136,26 +139,26 @@ Videos will have been made available to them before the meet up see [Step 1](htt
 ### Step 4 - Making a New PGP Key
 Attendees then go to a private location with their laptop and generate a new PGP Key that is preferably air gapped. Products like the [crypto-stick](https://www.crypto-stick.com/) or [Yubi Key Neo](https://www.yubico.com/2012/12/yubikey-neo-openpgp/) can be offered for sale.  
 
-If someone attends with an existing PGP Key that has long been in use they should be advised to set up a new one and simply sign the old key with the one generated at the event <sup>[[1](https://gist.github.com/MrChrisJ/368583088a385bb7be0c#1)]</sup>
+If someone attends with an existing PGP Key that has long been in use they should be advised to set up a new one and simply sign the old key with the one generated at the event <sup>[[1](https://github.com/MrChrisJ/World-Citizenship#1)]</sup>
 
 ### Step 5 - Taking the Photograph - Optional
 *Remember Blockchain IDs are voluntary. People should not be forced to have their photo taken. Additional options like reading the PGP Fingerprint in to a good quality sound recorder should also be offered.*  
 
 Attendees participate in a group photo that can be cropped down to make each individual passport photo.  
 
-For added traceability and verification the merkle root<sup>[[2](https://www.youtube.com/watch?v=gUwXCt1qkBU)]</sup> of the latest Bitcoin block can be written down on a sheet of paper and be held up by one of the members of the group.  
+For added traceability and verification the merkle root<sup>[[2](https://github.com/MrChrisJ/World-Citizenship#2)]</sup> of the latest Bitcoin block can be written down on a sheet of paper and be held up by one of the members of the group.  
 
 The exact location and direction in which the group photo is taken may display the most uniquely identifiable element(s) of the environment in which the meet-up takes place (landmarks, buildings, etc.) to provide a additional reference to the geographical location.  
 
 **Photograph Guidelines**  
 Make sure the light is even and the subjects in the photo are facing directly towards the camera. You can observe [existing guidelines](https://www.gov.uk/photos-for-passports) on passport photo poses to make sure people are recognisable.
 
-If using an SLR Camera it is advised to use JPG format with medium compression at the highest resolution. Do not use Camera RAW or Tiff file types <sup>[[3](https://gist.github.com/MrChrisJ/368583088a385bb7be0c#3)]</sup>.  
+If using an SLR Camera it is advised to use JPG format with medium compression at the highest resolution. Do not use Camera RAW or Tiff file types <sup>[[3](https://github.com/MrChrisJ/World-Citizenship#3)]</sup>.  
 
 ### Step 6 - Preparing the ID Document
 *Please follow these steps carefully to ensure making a secure ID Card*  
 
-The contents of the ID Card are laid out in an  XML or JSON<sup>[4](https://gist.github.com/MrChrisJ/368583088a385bb7be0c#4)</sup>  document. If the content is placed inside of a JSON file the binary data of the JPG image can also be added making the signing process in the next step easier.   
+The contents of the ID Card are laid out in an  XML or JSON<sup>[4](https://github.com/MrChrisJ/World-Citizenship#4)</sup>  document. If the content is placed inside of a JSON file the binary data of the JPG image can also be added making the signing process in the next step easier.   
 
 The contents is listed here in the order of importance:  
 
@@ -163,7 +166,7 @@ The contents is listed here in the order of importance:
 2. Merkle Root of the latest Bitcoin block *which can be obtained from [Blockchain.info](https://blockchain.info/) or [Bitpay](https://insight.bitpay.com/)*
 3. Block number that corresponds to the merkle root above *for convenience in cases of manual lookup*
 4. Timestamp using [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) *yyyy-mm-dd—hhmm* 
-5. Name or pseudonym<sup>[4](https://gist.github.com/MrChrisJ/368583088a385bb7be0c#4)</sup> of the owner of the key 
+5. Name or pseudonym<sup>[4](https://github.com/MrChrisJ/World-Citizenship#4)</sup> of the owner of the key 
 6. Photograph *optional*
 7. PGP Key technical details
 8. Link to Social Media Authentification Service e.g. [Keybase](https://keybase.io/)
@@ -226,22 +229,23 @@ There’s no reason why both cannot be used. Services like these validate social
 2. By signing the Passport with a PGP key we bind the state of the document to it’s cryptographic signature preventing us from changing its contents without detection.
 3. By stamping the SHA-256 digest of the resulting ID Card in to the blockchain we prove that it existed in this state at no time later than the latest block.
   - The ID card is now locked in creation timeframe of approximately 20 to 40 minutes between the two blocks being discovered in steps 1 and 3.
-5. By publishing the venue’s Bitcoin IP addresses we prove that it was created in this place<sup>[5](https://gist.github.com/MrChrisJ/368583088a385bb7be0c#5)</sup>.  
+5. By publishing the venue’s Bitcoin IP addresses we prove that it was created in this place<sup>[5](https://github.com/MrChrisJ/World-Citizenship#5)</sup>.  
 
 Note: we do not use GPS data, it is read only and can easily be spoofed.
 
 Because Bitcoin nodes collect IP data in the debug.log file it should be possible for local nodes to confirm the transaction’s IP Address although this data is not commonly shared and opens up potential security risks. More work is being done on this see [Issue #11](https://github.com/MrChrisJ/World-Citizenship/issues/11#issuecomment-62050481).
 
 ## Similar Projects
-It has been brought to my attention that this project is similar to other attempts in the past. What is important is that this idea be allowed to emerge without the need 
+It has been brought to my attention that this project is similar to other attempts in the past. What is important is that this idea be allowed to emerge without the need for ownership from one group.
 
 #### [CheapID - State In A Box - Identity Services Architecture](http://guptaoption.com/4.SIAB-ISA.php)
-*Proposed by Vinay Gupta*
+*Proposed by Vinay Gupta*  
 
 #### [Bitcoin Web of Trust](http://bitcoin-otc.com/trust.php)
+A functioning web of trust used in Over the Counter (OTP) bitcoin trading using PGP.  
 
 #### [New Bitcoin Deed System Launches](http://qntra.net/2014/11/new-bitcoin-deed-system-launches/)
-This project proposes combining PGP with Blockchain technologies in a similar way.
+This project proposes combining PGP with Blockchain technologies in a similar way.  
 
 #### [IDCoin](https://github.com/IDCoin/IDCoin)
 IDCoin by David Duccini] fleshes out a Web of Trust model alluded to in the [Finishing Up section](https://github.com/MrChrisJ/World-Citizenship/blob/master/ReadMe.md#finishing-up).
@@ -280,7 +284,11 @@ The preferred use of JSON has been talked about in [Issue #15](https://github.co
 The Blockchain ID is a voluntary system. The trust of a PGP Key is backed not by the legal identity, birth name of the individual or their ethnic origin but rather by the ability to build a reputation over time that will be verifiable by the key.
 
 ###### 6
-We distinguish place from space. [Learn more](http://www.sscnet.ucla.edu/geog/downloads/856/416.pdf). 
+In this proposal we recommend proving a place in order to get to the space. This means we distinguish the two. Put simply space is the same in every direction, it’s undifferentiated and allows room for the movement of life. Space is often represented using a grid with co-ordination tools like GPS.  
+
+Place in contrast is differentiated and contextual, two places are not equivalent in the same way space is. A place is a site that people can attach memories to <sup>[see Proust](http://en.wikipedia.org/wiki/In_Search_of_Lost_Time#Memory)</sup> and find meaning in. [Learn more](http://www.sscnet.ucla.edu/geog/downloads/856/416.pdf).  
+
+
 
 ## Licence
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).  
