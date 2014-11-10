@@ -23,8 +23,8 @@ By doing this we aim to give people across the world the ability to grant one an
 
 First and foremost this is a learning exercise to discover whether the currently available open source cryptographic tools are up to the task of a global social network.
 
-**What this is *not***
-This is not a Web of Trust or an attempt to build dynamic reputation systems. The aim with this project is to do one thing really well. We will take a modular approach when scaling out in to areas such as identity management and smart contracts. 
+**What this is *not***  
+This is not a Web of Trust or an attempt to build a dynamic reputation system. The aim with this project is to do one thing really well; to create an affordable ID Card that makes an unfalsifiable claim as to the existence of person. We will take a modular approach when scaling out in to areas such as identity management and smart contracts. 
 
 ## Apparatus
 
@@ -34,13 +34,22 @@ This is not a Web of Trust or an attempt to build dynamic reputation systems. Th
 4. [Bitcoin wallet](https://bitcoin.org/en/choose-your-wallet)
 5. Printer
 6. Laminator
-7. Cool looking World Citizen Passport design
+7. Cool looking [World Citizen Passport design](https://github.com/MrChrisJ/World-Citizenship/blob/master/Prototyping/20141024_BitNation_Meetup_London/Prototype_03/BN_PASSPORT_TEMPLATE_2.png)
 8. Commercial Venue
 
 ## Method
 
 ### Step 1 - Precognition
 A determined group of forward thinking cypherpunks arrange a meet-up in their local area using a service like [meetup.com](http://www.meetup.com/) or [Eventbrite](https://www.eventbrite.co.uk/).  
+
+The key responsibility of the organisers is to create an ID Document according to the protocol laid out here. A successful Blockchain ID Card is one that adheres to the protocol by leaving an unfalsifiable claim as to the existence of another.  
+
+We achieve this by embedding a trail of evidence that are immutable and unfalsifiable. They are:
+- The Merkle Root presented on the ID Card
+- The PGP Signature and corresponding SHA-256 digests
+- The publishing of the on the blockchain
+
+No fraud or even a committee of liars is able to make untrue claims about any of the three variables above. 
 
 The event page should layout the following:   
 
@@ -137,11 +146,12 @@ Their laptop can be also given a security audit also if they wish.
 Videos will have been made available to them before the meet up see [Step 1](https://github.com/MrChrisJ/World-Citizenship#step-1) but **it’s important for the organisers to get a sense of how the students  understand the concepts so that they go in to the ID generation process with their eyes open**. If a student does not appear to understand what they are about to do they should be refused an ID card be advised to a witness at the event only.  
 
 ### Step 4 - Making a New PGP Key
-Attendees then go to a private location with their laptop and generate a new PGP Key that is preferably air gapped. Products like the [crypto-stick](https://www.crypto-stick.com/) or [Yubi Key Neo](https://www.yubico.com/2012/12/yubikey-neo-openpgp/) can be offered for sale.  
+Attendees then go to a private location with their laptop and generate a new PGP Key that is preferably air gapped. Products like the [Crypto-Stick](https://www.crypto-stick.com/) or [Yubi Key Neo](https://www.yubico.com/2012/12/yubikey-neo-openpgp/) can be offered for sale.  
 
 If someone attends with an existing PGP Key that has long been in use they should be advised to set up a new one and simply sign the old key with the one generated at the event <sup>[[1](https://github.com/MrChrisJ/World-Citizenship#1)]</sup>
 
 ### Step 5 - Taking the Photograph - Optional
+*For further discussion on use of Biometrics see [Issue #22](https://github.com/MrChrisJ/World-Citizenship/issues/22)*  
 *Remember Blockchain IDs are voluntary. People should not be forced to have their photo taken. Additional options like reading the PGP Fingerprint in to a good quality sound recorder should also be offered.*  
 
 Attendees participate in a group photo that can be cropped down to make each individual passport photo.  
@@ -166,7 +176,7 @@ The contents is listed here in the order of importance:
 2. Merkle Root of the latest Bitcoin block *which can be obtained from [Blockchain.info](https://blockchain.info/) or [Bitpay](https://insight.bitpay.com/)*
 3. Block number that corresponds to the merkle root above *for convenience in cases of manual lookup*
 4. Timestamp using [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) *yyyy-mm-dd—hhmm* 
-5. Name or pseudonym<sup>[4](https://github.com/MrChrisJ/World-Citizenship#4)</sup> of the owner of the key 
+5. Name or pseudonym<sup>[5](https://github.com/MrChrisJ/World-Citizenship#5)</sup> of the owner of the key 
 6. Photograph *optional*
 7. PGP Key technical details
 8. Link to Social Media Authentification Service e.g. [Keybase](https://keybase.io/)
@@ -229,7 +239,7 @@ There’s no reason why both cannot be used. Services like these validate social
 2. By signing the Passport with a PGP key we bind the state of the document to it’s cryptographic signature preventing us from changing its contents without detection.
 3. By stamping the SHA-256 digest of the resulting ID Card in to the blockchain we prove that it existed in this state at no time later than the latest block.
   - The ID card is now locked in creation timeframe of approximately 20 to 40 minutes between the two blocks being discovered in steps 1 and 3.
-5. By publishing the venue’s Bitcoin IP addresses we prove that it was created in this place<sup>[5](https://github.com/MrChrisJ/World-Citizenship#5)</sup>.  
+5. By publishing the venue’s Bitcoin IP addresses we prove that it was created in this place<sup>[6](https://github.com/MrChrisJ/World-Citizenship#6)</sup>.  
 
 Note: we do not use GPS data, it is read only and can easily be spoofed.
 
@@ -238,17 +248,17 @@ Because Bitcoin nodes collect IP data in the debug.log file it should be possibl
 ## Similar Projects
 It has been brought to my attention that this project is similar to other attempts in the past. What is important is that this idea be allowed to emerge without the need for ownership from one group.
 
-#### [CheapID - State In A Box - Identity Services Architecture](http://guptaoption.com/4.SIAB-ISA.php)
+##### [CheapID - State In A Box - Identity Services Architecture](http://guptaoption.com/4.SIAB-ISA.php)
 *Proposed by Vinay Gupta*  
 
-#### [Bitcoin Web of Trust](http://bitcoin-otc.com/trust.php)
+##### [Bitcoin Web of Trust](http://bitcoin-otc.com/trust.php)
 A functioning web of trust used in Over the Counter (OTP) bitcoin trading using PGP.  
 
-#### [New Bitcoin Deed System Launches](http://qntra.net/2014/11/new-bitcoin-deed-system-launches/)
+##### [New Bitcoin Deed System Launches](http://qntra.net/2014/11/new-bitcoin-deed-system-launches/)
 This project proposes combining PGP with Blockchain technologies in a similar way.  
 
-#### [IDCoin](https://github.com/IDCoin/IDCoin)
-IDCoin by David Duccini] fleshes out a Web of Trust model alluded to in the [Finishing Up section](https://github.com/MrChrisJ/World-Citizenship/blob/master/ReadMe.md#finishing-up).
+##### [IDCoin](https://github.com/IDCoin/IDCoin)
+IDCoin by David Duccini fleshes out a Web of Trust model alluded to in the [Finishing Up section](https://github.com/MrChrisJ/World-Citizenship/blob/master/ReadMe.md#finishing-up).
 
 ## Criticisms and Feedback
 
