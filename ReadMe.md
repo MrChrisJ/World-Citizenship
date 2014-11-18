@@ -61,6 +61,8 @@ The event page should layout the following:
 ### Step 2 - Finding a Venue  
 We recommend the use of commercial venues so that we can prove our existence in place and space without infringing on an individual’s privacy. Because the venue is commercial it will have a vested interest in advertising its location.  
 
+![Ace Hotel](https://github.com/MrChrisJ/World-Citizenship/blob/master/Media/Ace-Hotel-Exterior-450px.jpg)
+
 Look for established businesses with good reputations and that are well known in the surrounding area.  
 
 **Good examples of venues:**  
@@ -162,6 +164,8 @@ The exact location and direction in which the group photo is taken may display t
 
 **Photograph Guidelines**  
 Make sure the light is even and the subjects in the photo are facing directly towards the camera. You can observe [existing guidelines](https://www.gov.uk/photos-for-passports) on passport photo poses to make sure people are recognisable.
+
+![Ace Hotel](https://github.com/MrChrisJ/World-Citizenship/blob/master/Media/Example-Portrait.jpg)
 
 If using an SLR Camera it is advised to use JPG format with medium compression at the highest resolution. Do not use Camera RAW or Tiff file types <sup>[[3](https://github.com/MrChrisJ/World-Citizenship#3)]</sup>.  
 
