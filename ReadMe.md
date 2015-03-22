@@ -17,14 +17,14 @@ If you want to donate to me personally I’d be very grateful and it will go tow
 
 The goal of this project is to learn and layout a simple process for anyone in the world to create their own Private Passport Service that can be used to validate and prove the existence of other persons using nothing but available tools.
 
-We will prefer open source where available and we will draw on the cryptographic tools like Public Private Key Cryptography (PGP) and blockchain technology in the form of Bitcoin.
+We will prefer open source where available and we will draw on the cryptographic tools like "Pretty Good Privacy" (PGP) which utilizes public key cryptography, and blockchain technology in the form of Bitcoin.
 
 By doing this we aim to give people across the world the ability to grant one another World Citizenship by virtue of their being witnessed in space and in time. This witnessing can be documented with photography and video, that content can be signed with PGP signatures, hashed and timestamped. It can then be joined with Social Network Validation services like [Onename.io](https://onename.io) & [Keybase.io](https://keybase.io/) before being plugged in to more dynamic reputation systems.
 
 First and foremost this is a learning exercise to discover whether the currently available open source cryptographic tools are up to the task of a global social network.
 
 **What this is *not***  
-This is not a Web of Trust or an attempt to build a dynamic reputation system. The aim with this project is to do one thing really well; to create an affordable ID Card that makes an unfalsifiable claim as to the existence of person. We will take a modular approach when scaling out in to areas such as identity management and smart contracts. 
+This is not a Web of Trust or an attempt to build a dynamic reputation system. The aim with this project is to do one thing really well; to create an affordable ID Card that makes an unfalsifiable claim as to the existence of person. We will take a modular approach when scaling out in to areas such as identity management and smart contracts. This cannot prove that a person does not have multiple identities, but simply that they existed at a certain point in time.
 
 ## Apparatus
 
