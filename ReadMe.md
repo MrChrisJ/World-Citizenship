@@ -305,6 +305,5 @@ Place in contrast is differentiated and contextual, two places are not equivalen
 
 
 ## Licence
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).  
-![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+This work is licensed under a [Creative Commons  CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/). 
 
