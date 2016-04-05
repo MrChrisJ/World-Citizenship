@@ -87,7 +87,7 @@ The business also needs to be willing for you to publish their IP Address on the
 
 #### Step 2a - Registering the Venue - Optional
 For added security they can also have the proprietor of the venue sign up for a Blockchain ID and have them sign a message on social media enclosing their IP Address, like so:
-
+<pre>
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
@@ -111,7 +111,7 @@ rROJ/uje3fjXNoUacfyDgWFfEh+kr64Od7IUDEp87+I4FASNLRasmgls+5vKB2lw
 3xbJtDTH2yBkG58Y8J3XKWnm01Tz4ez03NKsajYVPq8vJkhQI0hEREs8GkUPN9Q=
 =H9SY
 -----END PGP SIGNATURE-----  
-
+</pre>
 The IP address can then be verified using services like [ipligence.com](http://www.ipligence.com/geolocation) and corroborated with the address as advertised on Google Maps and other classifieds even at a distance. Note that the more public reviews and brand presence the business has the more robust the Identity Cards will be.
 
 See [point-of-presence](http://en.wikipedia.org/wiki/Point_of_presence) and a [post by @Patcon](https://github.com/MrChrisJ/World-Citizenship/issues/11#issuecomment-62050481) in the Issues Section for more information on this topic.  
@@ -148,7 +148,7 @@ Their laptop can be also given a security audit also if they wish.
 Videos will have been made available to them before the meet up see [Step 1](https://github.com/MrChrisJ/World-Citizenship#step-1) but **it’s important for the organisers to get a sense of how the students  understand the concepts so that they go in to the ID generation process with their eyes open**. If a student does not appear to understand what they are about to do they should be refused an ID card be advised to a witness at the event only.  
 
 ### Step 4 - Making a New PGP Key
-Attendees then go to a private location with their laptop and generate a new PGP Key that is preferably air gapped. Products like the [Crypto-Stick](https://www.crypto-stick.com/) or [Yubi Key Neo](https://www.yubico.com/2012/12/yubikey-neo-openpgp/) can be offered for sale.  
+Attendees then go to a private location with their laptop and generate a new PGP Key that is preferably air gapped. Products like the [Crypto-Stick](https://www.crypto-stick.com/) or [YubiKey Neo](https://www.yubico.com/2012/12/yubikey-neo-openpgp/) can be offered for sale.  
 
 If someone attends with an existing PGP Key that has long been in use they should be advised to set up a new one and simply sign the old key with the one generated at the event <sup>[[1](https://github.com/MrChrisJ/World-Citizenship#1)]</sup>
 
@@ -205,17 +205,18 @@ We then produce [SHA-256](http://en.wikipedia.org/wiki/Secure_Hash_Algorithm) ha
 
 We can do this in Terminal using the following command using [OpenSSL](http://perso.crans.org/~raffo/docs/openssl-qref.pdf):  
 
-```openssl dgst -sha256 filename.jpg```  
+    openssl dgst -sha256 filename.jpg  
 
 This will produce text to enter the blockchain it should look something like this:
 
-```
+<pre>
 3b2a836fa09d22f549016febb8dbf163ee7cf5b0f945e8f940a9d9d3d0e6f37c
 b115a8912e005bac4e19705efbe33ed5d83dbfbb4c27dea3899d037263188f67
 2431f992fb40ff124a8e1070b33627088ed51ff33ca7e03e1fe0f39d93c856f0
 IP 127.0.0.0
 Crypto King Hotel
-```
+</pre>
+
 We then use a blockchain notary service called [CryptoGraffiti](http://www.cryptograffiti.info/)  also consider [Viacoin](http://viacoin.org/) and [Namecoin](http://namecoin.info/).
 
 **We do NOT recommend putting personal identifiable information of the attendants in to the blockchain**. Remember that you are dealing with a distributed database that is permanent and unchangeable.
@@ -240,7 +241,7 @@ There’s no reason why both cannot be used. Services like these validate social
 *Let’s take a look at what we’ve just done*  
 
 1. By including the Merkle Root of the latest block in to the ID Card we prove that the document cannot have been created in this state any time prior to the latest block.
-2. By signing the Passport with a PGP key we bind the state of the document to it’s cryptographic signature preventing us from changing its contents without detection.
+2. By signing the Passport with a PGP key we bind the state of the document to its cryptographic signature preventing us from changing its contents without detection.
 3. By stamping the SHA-256 digest of the resulting ID Card in to the blockchain we prove that it existed in this state at no time later than the latest block.
   - The ID card is now locked in creation timeframe of approximately 20 to 40 minutes between the two blocks being discovered in steps 1 and 3.
 5. By publishing the venue’s Bitcoin IP addresses we prove that it was created in this place<sup>[6](https://github.com/MrChrisJ/World-Citizenship#6)</sup>.  
@@ -286,7 +287,7 @@ The Merkle Root is a highly uncertain number produced in every bitcoin block, it
 
 By displaying the merkle root in any media you are proving you have knowledge of a highly entropic event which confirms the media cannot have existed in that form any time prior.  
 
-Learn more about the Merkle Root here: [Bitcoin 101](https://www.youtube.com/watch?v=gUwXCt1qkBU) and on the Bitcoin Wiki.
+Learn more about the Merkle Root here: [Bitcoin 101](https://www.youtube.com/watch?v=gUwXCt1qkBU) and on the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page).
 
 ###### 3
 This is because even though RAW files are read only they are subject to manipulation at the byte level that is hard to detect. As a research topic we should consider the unique signature created by Camera’s CCD chips which can be used as an extra proof. In addition if the image is taken in JPG format we can employ [Error Level Analysis](http://fotoforensics.com/tutorial-ela.php) to [detect any post production](http://29a.ch/sandbox/2012/imageerrorlevelanalysis/) as lossy compression will add additional artefacts to the image content.
