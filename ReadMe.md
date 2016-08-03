@@ -3,7 +3,7 @@
 **Disclaimer**:  
 *Due to recent press coverage I’d like to remind everyone that this project* ***is an experiment and learning exercise*** *for experts in the field of cryptography. Remember blockchains are distributed, immutable databases. Don’t put anything in to them that you wouldn’t want to last forever*. ***Please use these tools your own risk and read [Issues section](https://github.com/MrChrisJ/World-Citizenship/issues) before trying anything yourself.***  
 
-**[Proof of Initial Publication 17th October 2014](http://www.cryptograffiti.info/?txnr=1247)**
+**[Proof of Initial Publication 17th October 2014](http://www.cryptograffiti.info/#1247)**
 
 **Donations**  
 If you want to donate to the expenses address:  
